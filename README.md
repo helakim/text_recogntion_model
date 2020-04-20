@@ -11,7 +11,7 @@
 ## Goblin-AI REST-API Preview :)
 ![](fig/preview_rest_api.gif)
 
-## HELA-EYE (Sunday 06, oct 2019)
+## HELA-EYE
 - Optical character recognition을 해결 하기 위해Joint-CTC모델과 Weighted Attention Model 두가지를 제공 합니다 (지속적으로 state of the arts 논문을 구현 할 것 입니다)
 
 - 한정 된 문자인식 테스크를 해결 하는것이 목적이 아니라 다양한 상황(e.g. 야외문자, 자동차 번호판, 명함, 신용카드, 여권)을 해결 하기 위해 절대적인 성능 보다 유연한 모델을 적용 했습니다 (사전학습 모델)
@@ -27,6 +27,8 @@
 - Visdom을 통해 시각화를 할 수 있습니다(e.g. 모델 그래프, loss 및 matirx)
 
 - local machine 에서 training and evaluation 완료
+
+- 다양한 모델을 업데이틀할 예정 입니다.
 ## Environment
 - pytorch 1.2.0
 - torchvision >= 0.3.0
